@@ -1,0 +1,55 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#random-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: white;
+    color: blue;
+}
+
+#result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#result {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#copy-btn {
+    padding: 5px 10px;
+    background-color: lightgray;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+}
